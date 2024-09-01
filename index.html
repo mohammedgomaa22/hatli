@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/avif+svg+xml" href="./assets/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تطبيق هاتلي</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.css" />
+    <!-- Favicons -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" >
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./assets/css/style.css" >
+  </head>
+  <body>
+
+    
+    <!-- <div class="whatsapp text-center fixed bottom-5 right-5 z-40">
+      <a href="https://wa.me/+966" target="_blank"
+        class="flex items-center gap-2 w-fit mx-auto text-xl font-semibold mt-3 py-2 px-4 rounded-full bg-green-500 text-white">
+        تواصل معنا !
+        <i class="fab fa-whatsapp text-3xl"></i>
+      </a>
+    </div> -->
+
+    <!-- Start Header -->
+    <header class="hero-section min-h-screen relative overflow-hidden pb-10 z-10 bg-gradient-to-b from-gray-50 to-main_bg">
+
+      <!-- Start Navbar -->
+      <nav class="relative flex items-center py-3">
+        <div class="container flex justify-between items-center">
+          <div class="flex gap-8 justify-between items-center flex-1">
+            <!-- Logo -->
+            <figure class="logo flex gap-2 relative h-[100px] w-[120px] rounded-md">
+              <img src="./assets/images/logo.png" alt="logo" height="100px" width="190px" class="w-full h-full object-contain" loading="lazy">
+            </figure>
+            <div class="row flex justify-between items-center">
+              <div class="ul flex gap-8 items-center py-4">
+                <!-- Nav in full screen -->
+                <div class="flex gap-16">
+                  <ul class="hidden 2xl:flex gap-8 font-medium text-white items-center">
+                    <li>
+                      <a href="#"
+                        class="text-secondary relative font-semibold text-[20px] duration-300 p-2 rounded-md hover:text-primary nav-active"
+                        aria-label="Read more about Seminole tax hike" nav-active>
+                        الـــرئيـسـيـــة
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#about_us"
+                        class="text-secondary font-semibold text-[20px] duration-300 p-2 rounded-md hover:text-primary"
+                        aria-label="Read more about Seminole tax hike" nav-active>
+                        عـــن الـتـطـبـيــق
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#features"
+                        class="text-secondary font-semibold text-[20px] duration-300 p-2 rounded-md hover:text-primary"
+                        aria-label="Read more about Seminole tax hike" nav-active>
+                        مــمــيـــزات الـتـطـبـيــق
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#gallery"
+                        class="text-secondary font-semibold text-[20px] duration-300 p-2 rounded-md hover:text-primary"
+                        aria-label="Read more about Seminole tax hike" nav-active>
+                        صـــور الـتـطـبـيــق
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Nav in Mobile -->
+                <ul class="sidebar w-full flex flex-col py-3 absolute left-0 top-[110px] -translate-x-[100%] bg-[#f8f8f8] text-gray-700 duration-500 z-50">
+                  <li>
+                    <a href="#"
+                      class="w-full text-secondary px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                      aria-label="Read more about Seminole tax hike">
+                      الـــرئيـسـيـــة
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#features"
+                      class="w-full text-secondary px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                      aria-label="Read more about Seminole tax hike">
+                      عـــن الـتـطـبـيــق
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#features"
+                      class="w-full text-secondary px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px] border-b"
+                      aria-label="Read more about Seminole tax hike">
+                      مــمــيـــزات الـتـطـبـيــق
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#gallery"
+                      class="w-full text-secondary px-4 py-3 hover:pr-6 duration-300 block font-bold text-[20px]"
+                      aria-label="Read more about Seminole tax hike">
+                      صـــور الـتـطـبـيــق
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Toggler sidebar -->
+          <div class="cursor-pointer 2xl:hidden w-[30px] text-gray-700">
+            <span class="toggler fas fa-bars block h-full w-full"></span>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <div class="container">
+
+        <!-- Start Hero section -->
+        <div class="row flex flex-col-reverse 2xl:flex-row items-center gap-10 md:mt-16">
+
+          <!-- Info -->
+          <div class="info flex-1 flex flex-col items-center 2xl:items-start gap-7 text-secondary">
+
+            <h3 class="text-2xl text-center md:text-right md:text-3xl font-semibold">
+              <span class="text-primary">
+                تطبيق هاتلي متوفر الآن!
+              </span>
+            </h3>
+            <p class="text-lg text-center md:text-right md:text-xl font-semibold max-w-2xl text-gray-700">
+              سجل معنا واستمتع بالخصومات وسهولة الحصول على الطلبات
+            </p>
+            <!-- Links -->
+            <div class="links flex flex-col gap-5">
+              <p class="text-2xl md:text-3xl font-semibold max-w-2xl text-center 2xl:text-right">
+                حمل التطبيق الآن
+              </p>
+              <div class="links h-fit mt-5 flex gap-3 flex-wrap justify-center items-center">
+                <div class="app h-fit animate__animated animate__bounceInRight">
+                  <a href="https://play.google.com/store/apps/details?id=com.hatlliapp.hatlli"
+                    target="_blank" aria-label="Read more about Seminole tax hike"
+                    class="block w-[125px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pl-1 pr-1 bg-white">
+                    <img loading="lazy" src="./assets/images/google-play-1.svg" alt="android" class="max-w-full -mt-1">
+                  </a>
+                </div>
+                <div class="app h-fit animate__animated animate__bounceInLeft">
+                  <a href="https://apps.apple.com/us/app/%D9%87%D8%A7%D8%AA%D9%84%D9%8A-%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA/id6469307208"
+                    target="_blank" aria-label="Read more about Seminole tax hike"
+                    class="block w-[130px] h-9 duration-300 hover:-translate-y-1">
+                    <img loading="lazy" src="./assets/images/app-store.svg" alt="apple" class="max-w-full">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <figure class="img w-72 sm:w-96 md:w-[500px] 2xl:w-[550px] animate-top-bottom">
+            <img src="./assets/images/Ecommerce campaign-amico.svg" alt="pro" class="max-w-full max-h-[450px]">
+          </figure>
+
+        </div>
+        <!-- End Hero section -->
+
+      </div>
+    </header>
+    <!-- Start Header -->
+
+
+    <main>
+
+    <!-- Start About -->
+      <section id="about_us" class="py-14">
+        <div class="container">
+          
+          <div class="row flex flex-col-reverse 2xl:flex-row items-center gap-10 md:mt-16">
+          
+            <!-- Info -->
+            <div class="info flex-1 flex flex-col items-center 2xl:items-start gap-7 text-secondary">
+          
+              <div class="main-title text-center w-fit mx-auto md:m-0 text-primary">
+                <h3 class="text-3xl md:text-4xl font-extrabold" style="text-shadow: -2px 6px 6px rgba(246, 97, 5, 0.3);">
+                  عن التطبيق
+                </h3>
+              </div>
+
+              <p class="text-lg text-center 2xl:text-right md:text-xl font-semibold max-w-2xl text-gray-700">
+                تطبيق "هاتلي" هو تطبيق مخصص لتوصيل الطلبات يتيح للمستخدمين طلب المنتجات المختلفة من متاجر متعددة وتوصيلها مباشرة إلى
+                منازلهم أو أي مكان آخر يختارونه. يتميز التطبيق بواجهة سهلة الاستخدام تسمح للمستخدمين بتصفح المتاجر والمنتجات، اختيار ما
+                يرغبون في شرائه، والدفع إلكترونيًا.
+              </p>
+              <!-- Links -->
+              <div class="links flex flex-col gap-5">
+                <p class="text-2xl md:text-3xl font-semibold max-w-2xl text-center 2xl:text-right">
+                  حمل التطبيق الآن
+                </p>
+                <div class="links h-fit mt-5 flex gap-3 flex-wrap justify-center items-center">
+                  <div class="app h-fit animate__animated animate__bounceInRight">
+                    <a href="https://play.google.com/store/apps/details?id=com.hatlliapp.hatlli"
+                      target="_blank" aria-label="Read more about Seminole tax hike"
+                      class="block w-[125px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pl-1 pr-1 bg-white">
+                      <img loading="lazy" src="./assets/images/google-play-1.svg" alt="android" class="max-w-full -mt-1">
+                    </a>
+                  </div>
+                  <div class="app h-fit animate__animated animate__bounceInLeft">
+                    <a href="https://apps.apple.com/us/app/%D9%87%D8%A7%D8%AA%D9%84%D9%8A-%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA/id6469307208"
+                      target="_blank" aria-label="Read more about Seminole tax hike"
+                      class="block w-[130px] h-9 duration-300 hover:-translate-y-1">
+                      <img loading="lazy" src="./assets/images/app-store.svg" alt="apple" class="max-w-full">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <figure class="img w-72 sm:w-96 md:w-[500px] 2xl:w-[550px] animate-top-bottom">
+              <img src="./assets/images/Ecommerce campaign-bro.svg" alt="pro" class="max-w-full max-h-[450px]">
+            </figure>
+          
+          </div>
+                    
+        </div>
+      </section>
+    <!-- End About -->
+
+      <!-- Start Features -->
+      <section id="features" class="py-14 relative overflow-hidden bg-gray-50">
+        <div class="container">
+
+          <div class="main-title text-center mb-10 w-fit mx-auto text-primary">
+            <h3 class="text-3xl md:text-4xl font-extrabold" style="text-shadow: -2px 6px 6px rgba(246, 97, 5, 0.3);">
+              مــمــيـــزات الـتـطـبـيــق
+            </h3>
+          </div>
+      
+          <div class="row mt-16 grid md:grid-cols-2 2xl:grid-cols-3 gap-6">
+          
+            <div class="col flex flex-col gap-4 text-center p-6 rounded-2xl bg-[#ffa62474] text-secondary duration-300 hover:-translate-y-3">
+              <div class="icon flex justify-center">
+                <img loading="lazy" src="./assets/images/logo.png" alt="servise-img-1" class="w-20 h-20">
+              </div>
+              <div class="servise-title text-2xl font-bold">
+                <h4>
+                  سهولة الاستخدام
+                </h4>
+                <p class="text-lg font-normal py-2">
+                  يوفر التطبيق واجهة بسيطة وبديهية تتيح للمستخدمين البحث عن المنتجات والطلب بسهولة.
+                </p>
+              </div>
+            </div>
+          
+            <div class="col flex flex-col gap-4 text-center p-6 rounded-2xl bg-[#ffa62474] text-secondary duration-300 hover:-translate-y-3">
+              <div class="icon flex justify-center">
+                <img loading="lazy" src="./assets/images/logo.png" alt="servise-img-1" class="w-20 h-20">
+              </div>
+              <div class="servise-title text-2xl font-bold">
+                <h4>
+                  تنوع المتاجر والمنتجات
+                </h4>
+                <p class="text-lg font-normal py-2">
+                  يحتوي التطبيق على مجموعة واسعة من المتاجر المشاركة التي تقدم مجموعة متنوعة من المنتجات، مما يتيح للمستخدمين الاختيار من
+                  بين خيارات متعددة.
+                </p>
+              </div>
+            </div>
+                              
+            <div class="col flex flex-col gap-4 text-center p-6 rounded-2xl bg-[#ffa62474] text-secondary duration-300 hover:-translate-y-3">
+              <div class="icon flex justify-center">
+                <img loading="lazy" src="./assets/images/logo.png" alt="servise-img-1" class="w-20 h-20">
+              </div>
+              <div class="servise-title text-2xl font-bold">
+                <h4>
+                  خدمة توصيل سريعة
+                </h4>
+                <p class="text-lg font-normal py-2">
+                  يركز التطبيق على توفير خدمة توصيل سريعة وآمنة، مع إمكانية تتبع الطلبات في الوقت الفعلي.
+                </p>
+              </div>
+            </div>
+          
+            <div class="col flex flex-col gap-4 text-center p-6 rounded-2xl bg-[#ffa62474] text-secondary duration-300 hover:-translate-y-3">
+              <div class="icon flex justify-center">
+                <img loading="lazy" src="./assets/images/logo.png" alt="servise-img-1" class="w-20 h-20">
+              </div>
+              <div class="servise-title text-2xl font-bold">
+                <h4>
+                  خيارات دفع متعددة
+                </h4>
+                <p class="text-lg font-normal py-2">
+                  يوفر التطبيق خيارات دفع متنوعة، بما في ذلك الدفع عند الاستلام أو الدفع الإلكتروني عبر بطاقات الائتمان.
+                </p>
+              </div>
+            </div>
+          
+            <div class="col flex flex-col gap-4 text-center p-6 rounded-2xl bg-[#ffa62474] text-secondary duration-300 hover:-translate-y-3">
+              <div class="icon flex justify-center">
+                <img loading="lazy" src="./assets/images/logo.png" alt="servise-img-1" class="w-20 h-20">
+              </div>
+              <div class="servise-title text-2xl font-bold">
+                <h4>
+                  عروض وخصومات
+                </h4>
+                <p class="text-lg font-normal py-2">
+                  يقدم التطبيق بشكل دوري عروض وخصومات خاصة للمستخدمين، مما يجعل تجربة التسوق أكثر اقتصادية.
+                </p>
+              </div>
+            </div>
+                              
+          </div>
+      
+        </div>
+      </section>
+      <!-- End Features -->
+
+
+      <!-- Start App links -->
+      <section id="appLinks" class="py-14 relative overflow-hidden bg-gradient-to-r from-primary to-white">
+        <div class="container">
+      
+          <p class="paragraph text-2xl text-center font-semibold leading-7 max-w-[600px] mx-auto text-secondary">
+            مـاذا تنتظــر !
+            <span class="block mt-1 leading-9">
+              قم بتنزيل التطبيق الآن واستمتع بمزاياه الفريدة
+            </span>
+          </p>
+      
+          <div class="links h-fit mt-5 flex gap-3 flex-wrap justify-center items-center">
+            <div class="app h-fit animate__animated animate__bounceInRight">
+              <a href="https://play.google.com/store/apps/details?id=com.hatlliapp.hatlli"
+                target="_blank" aria-label="Read more about Seminole tax hike"
+                class="block w-[125px] h-10 rounded-md pt-2 border duration-300 hover:-translate-y-1 pl-1 pr-1 bg-white">
+                <img loading="lazy" src="./assets/images/google-play-1.svg" alt="android" class="max-w-full -mt-1">
+              </a>
+            </div>
+            <div class="app h-fit animate__animated animate__bounceInLeft">
+              <a href="https://apps.apple.com/us/app/%D9%87%D8%A7%D8%AA%D9%84%D9%8A-%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA/id6469307208"
+                target="_blank" aria-label="Read more about Seminole tax hike"
+                class="block w-[130px] h-9 duration-300 hover:-translate-y-1">
+                <img loading="lazy" src="./assets/images/app-store.svg" alt="apple" class="max-w-full">
+              </a>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <!-- End App links -->
+
+
+      <!-- Start Gallery -->
+      <section id="gallery" class="py-14 relative overflow-hidden">
+        <div class="container">
+      
+          <div class="main-title text-center mb-10 w-fit mx-auto text-primary">
+            <h3 class="text-3xl md:text-4xl font-extrabold" style="text-shadow: -2px 6px 6px rgba(246, 97, 5, 0.3);">
+              بعض صور التطبيق
+            </h3>
+          </div>
+      
+          <div class="swiper-container two">
+            <div class="swiper-wrapper">
+      
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc1.webp" alt="slide 1">
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc2.webp" alt="slide 1">
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc3.webp" alt="slide 1">
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc4.webp" alt="slide 1">
+                </div>
+              </div>
+      
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc5.webp" alt="slide 1">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc6.webp" alt="slide 1">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc7.webp" alt="slide 1">
+                </div>
+              </div>
+            
+              <div class="swiper-slide">
+                <div class="slider-image">
+                  <img src="./assets/images/sc8.webp" alt="slide 1">
+                </div>
+              </div>
+            
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <!-- End Gallery -->
+
+
+    </main>
+
+    <!-- Start Footer -->
+    <footer id="footer" class="bg-main_bg">
+      <div class="foot px-5 py-5 text-primary">
+        <p class="w-fit mx-auto font-semibold">جميع الحقوق محفوظة لتطبيق هاتلي &copy;</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    
+    <!-- Swiper -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- faveicons JS -->
+    <script src="./assets/js/all.min.js"></script>
+    <!-- Main JS -->
+    <script type="module" src="./assets/js/main.js"></script>
+  </body>
+</html>
